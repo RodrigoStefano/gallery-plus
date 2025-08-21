@@ -1,7 +1,9 @@
+import { Text } from "./components/Text";
+
 export function App() {
   return (
-    <h1>
+    <Text variant="heading-small" className="text-accent-paragraph">
       Album de fotos
-    </h1>
+    </Text>
   )
 }
